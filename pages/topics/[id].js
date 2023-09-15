@@ -27,7 +27,7 @@ export default function Topic({ topicData }) {
         {/* update to be a title */}
         <title>{topicData.id}</title>
       </Head>
-      <h2 className={utilStyles.headingXl}> {topicData.id}</h2>
+      <h2> {topicData.id}</h2>
       <br />
       <div dangerouslySetInnerHTML={{ __html: topicData.contentHtml }} />
     </Layout>

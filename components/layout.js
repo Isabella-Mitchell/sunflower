@@ -21,13 +21,12 @@ export default function Layout({ children, home }) {
             <Image
               priority
               src="/images/profile.jpg"
-              className={utilStyles.borderCircle}
               height={144}
               width={144}
               alt=""
             />
           </Link>
-          <h1 className={utilStyles.heading2Xl}>{headerText}</h1>
+          <h1>{headerText}</h1>
         </>
       </header>
       <main>{children}</main>
