@@ -5,7 +5,6 @@ import utilStyles from "../styles/utils.module.css";
 import TransitionLayout from "./transitionLayout";
 import Link from "next/link";
 
-const headerText = "Isabella & Matthew";
 export const siteTitle = "My Site Title";
 
 export default function Layout({ children, home }) {
@@ -18,27 +17,24 @@ export default function Layout({ children, home }) {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-          href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Seaweed+Script&family=Dawning+of+a+New+Day&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Seaweed+Script&family=Dawning+of+a+New+Day&family=Lato:wght@300&display=swap"
           rel="stylesheet"
         />
       </Head>
       <header className={styles.header}>
-        <>
-          <Link href="/">
-            <Image
-              priority
-              src="/images/sunflowers-ltr.png"
-              height={240}
-              width={240}
-              alt=""
-            />
-          </Link>
-          <h1>{headerText}</h1>
-        </>
+        <Link id="main-image-link" href="/">
+          <Image
+            priority
+            src="/images/sunflowers-ltr.png"
+            height={240}
+            width={240}
+            alt=""
+          />
+        </Link>
+        <h1>Isabella & Matthew</h1>
+        <h2>Saturday 10th August 2024</h2>
       </header>
-      <main>
-        <TransitionLayout>{children}</TransitionLayout>
-      </main>
+      <TransitionLayout>{children}</TransitionLayout>
     </div>
   );
 }

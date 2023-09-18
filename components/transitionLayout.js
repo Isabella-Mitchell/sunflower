@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { useState, memo, useEffect } from "react";
 import styles from "./transitionLayout.module.css";
-// import Nav from "./nav";
 
 export default function TransitionLayout({ children }) {
   const [displayChildren, setDisplayChildren] = useState(children);
@@ -18,17 +17,25 @@ export default function TransitionLayout({ children }) {
   return (
     <div>
       <nav>
-        <Link href="/">Home</Link>
-        <Link href="/topics/accomodation">Accomodation</Link>
-        <Link href="/topics/venue">Venue</Link>
+        <ul class="flex">
+          <li>
+            <Link href="/topics/about">About</Link>
+          </li>
+          <li>
+            <Link href="/topics/venue">Venue</Link>
+          </li>
+          <li>
+            <Link href="/topics/accomodation">Accomodation</Link>
+          </li>
+          <li>
+            <Link href="/topics/next steps">Next Steps</Link>
+          </li>
+        </ul>
       </nav>
 
-      {/* <Nav /> */}
-
-      <div
+      <main
         onTransitionEnd={() => {
           if (transitionStage === "fadeOut") {
-            console.log("fading out");
             setDisplayChildren(children);
             setTransitionStage("fadeIn");
           }
@@ -36,7 +43,7 @@ export default function TransitionLayout({ children }) {
         className={`${styles.content} ${styles[transitionStage]}`}
       >
         {displayChildren}
-      </div>
+      </main>
     </div>
   );
 }

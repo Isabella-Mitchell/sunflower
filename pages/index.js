@@ -20,21 +20,7 @@ export default function Home({ allTopicsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section>
-        <p>Sample Text</p>
-        <p>
-          (Sample more text <a href="https://nextjs.org/learn">sample link</a>.)
-        </p>
-      </section>
-
-      <section>
-        <h2>Links</h2>
-        <ul>
-          {allTopicsData.map(({ id }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/topics/${id}`}>{id}</Link>
-            </li>
-          ))}
-        </ul>
+        <h2>We're Getting Married - Please Save the Date!</h2>
       </section>
     </Layout>
   );
