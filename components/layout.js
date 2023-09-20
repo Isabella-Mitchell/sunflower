@@ -5,13 +5,13 @@ import utilStyles from "../styles/utils.module.css";
 import TransitionLayout from "./transitionLayout";
 import Link from "next/link";
 
-export const siteTitle = "My Site Title";
+export const siteTitle = "Isabella and Matthew";
 
 export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/sunflowers-ltr.png" />
         <meta name="description" content="Write something here" />
         <meta name="og:title" content={siteTitle} />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
