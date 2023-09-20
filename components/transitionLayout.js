@@ -19,10 +19,10 @@ export default function TransitionLayout({ children }) {
       <nav>
         <ul class="flex">
           <li>
-            <Link href="/topics/about">About</Link>
+            <Link href="/">Save the Date</Link>
           </li>
           <li>
-            <Link href="/topics/venue">Venue</Link>
+            <Link href="/topics/about the day">About the Day</Link>
           </li>
           <li>
             <Link href="/topics/accomodation">Accomodation</Link>

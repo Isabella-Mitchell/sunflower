@@ -13,7 +13,7 @@ body {
   /* font-size: 18px; */
   color: #353839;
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: 300;
   background-color: #f2f2f2;
 }
 
@@ -81,4 +81,21 @@ main {
 
 #main-image-link:hover {
   border-bottom: none;
+}
+
+.homePageParagraph {
+  /* font-family: "Dawning of a New Day", serif; */
+  margin: 0 1rem 1rem;
+  /* text-transform: uppercase; */
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.bold {
+  font-weight: 400;
+}
+
+.italic {
+  font-style: italic;
 }

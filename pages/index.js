@@ -20,7 +20,15 @@ export default function Home({ allTopicsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section>
-        <h2>We're Getting Married - Please Save the Date!</h2>
+        <h2 class="bold italic">
+          We're Getting Married - Please Save the Date!
+        </h2>
+        {/* <p class="homePageParagraph bold italic">
+          We're getting married, please save the date!
+        </p> */}
+        <p class="homePageParagraph">Saturday 10th August 2024</p>
+        <p class="homePageParagraph">The Barn at Berryfields, Meriden</p>
+        <p class="homePageParagraph">Invitation to follow</p>
       </section>
     </Layout>
   );
