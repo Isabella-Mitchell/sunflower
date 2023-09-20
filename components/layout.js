@@ -12,7 +12,7 @@ export default function Layout({ children, home }) {
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/images/sunflowers-ltr.png" />
-        <meta name="description" content="Write something here" />
+        <meta name="description" content="We're getting married!" />
         <meta name="og:title" content={siteTitle} />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
