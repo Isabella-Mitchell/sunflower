@@ -28,7 +28,7 @@ export default function TransitionLayout({ children }) {
             <Link href="/topics/about the day">About the Day</Link>
           </li>
           <li>
-            <Link href="/topics/accomodation">Accomodation</Link>
+            <Link href="/topics/accommodation">Accommodation</Link>
           </li>
           <li>
             <Link href="/topics/next steps">Next Steps</Link>
