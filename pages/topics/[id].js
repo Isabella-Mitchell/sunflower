@@ -40,7 +40,6 @@ export default function Topic({ topicData }) {
   return (
     <Layout>
       <Head>
-        {/* update to be a title */}
         <title>Isabella and Matthew - {topicData.id}</title>
       </Head>
       <h2> {topicData.id}</h2>
