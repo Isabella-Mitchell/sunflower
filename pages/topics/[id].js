@@ -53,7 +53,7 @@ export default function Topic({ topicData }) {
             <span id="name">
               <span>
                 <span>My</span>
-                <span> Headings 6</span>
+                <span> Headings 7</span>
               </span>
             </span>
             {/* <svg
