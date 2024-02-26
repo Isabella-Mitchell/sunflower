@@ -49,11 +49,11 @@ export default function Topic({ topicData }) {
       <div dangerouslySetInnerHTML={{ __html: topicData.contentHtml }} />
       <div id="live-header-with-block">
         <div>
-          <h1 aria-labelledby="nameBlock">
-            <span id="nameBlock">
+          <h1>
+            <span>
               <span role="text" className="displayBlock">
                 <span>My</span>
-                <span> Headings 12 Block</span>
+                <span> Headings 13 Block</span>
               </span>
             </span>
           </h1>
@@ -62,11 +62,11 @@ export default function Topic({ topicData }) {
       </div>
       <div id="live-header-with-inline-block">
         <div>
-          <h1 aria-labelledby="nameInlineBlock">
-            <span id="nameInlineBlock">
+          <h1>
+            <span>
               <span role="text" className="displayInlineBlock">
                 <span>My</span>
-                <span> Headings 12 Inline Block</span>
+                <span> Headings 13 Inline Block</span>
               </span>
             </span>
           </h1>
@@ -75,11 +75,11 @@ export default function Topic({ topicData }) {
       </div>
       <div id="live-header-with-inline">
         <div>
-          <h1 aria-labelledby="nameInline">
-            <span id="nameInline">
+          <h1>
+            <span>
               <span role="text" className="displayInline">
                 <span>My</span>
-                <span> Headings 12 Inline</span>
+                <span> Headings 13 Inline</span>
               </span>
             </span>
           </h1>
@@ -88,11 +88,11 @@ export default function Topic({ topicData }) {
       </div>
       <div id="live-header-with-flex">
         <div>
-          <h1 aria-labelledby="nameFlex">
-            <span id="nameFlex">
+          <h1>
+            <span>
               <span role="text" className="displayFlex">
                 <span>My</span>
-                <span> Headings 12 Flex</span>
+                <span> Headings 13 Flex</span>
               </span>
             </span>
           </h1>
