@@ -1,3 +1,18 @@
 .customDisplay {
   display: block;
 }
+.displayFlex {
+  display: flex;
+}
+
+.displayInline {
+  display: inline;
+}
+
+.displayInlineBlock {
+  display: inline-block;
+}
+
+.displayBlock {
+  display: block;
+}
