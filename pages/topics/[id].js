@@ -67,7 +67,7 @@ export default function Topic({ topicData }) {
                   LIVE{" "}
                 </span>
                 <span lang="en-GB">Live, </span>
-                <span>Pidgin test 33</span>
+                <span>Pidgin test 35</span>
               </span>
             </div>
           </h1>
