@@ -50,7 +50,7 @@ export default function Topic({ topicData }) {
       <div id="live-header-with-role-text">
         <div>
           <h1 class="css-ew35jg" id="content" tabindex="-1">
-            <div data-testid="live-label" className="inlineBlock">
+            <div data-testid="live-label" className="customDisplay">
               <svg
                 fill="currentColor"
                 focusable="false"
@@ -76,7 +76,7 @@ export default function Topic({ topicData }) {
       </div>
       <div id="promo-text-with-role-text">
         <h3 class="bbc-5pf132 e47bds20">
-          <div className="inlineBlock">
+          <div className="customDisplay">
             <svg
               class="first-promo bbc-xjd75s"
               fill="currentColor"
@@ -108,7 +108,7 @@ export default function Topic({ topicData }) {
       <div id="live-header-no-role-text">
         <div>
           <h1 class="css-ew35jg" id="content" tabindex="-1">
-            <div data-testid="live-label" className="inlineBlock">
+            <div data-testid="live-label" className="customDisplay">
               <svg
                 fill="currentColor"
                 focusable="false"
@@ -134,7 +134,7 @@ export default function Topic({ topicData }) {
       </div>
       <div id="promo-text-no-role-text">
         <h3 class="bbc-5pf132 e47bds20">
-          <div className="inlineBlock">
+          <div className="customDisplay">
             <svg
               class="first-promo bbc-xjd75s"
               fill="currentColor"
