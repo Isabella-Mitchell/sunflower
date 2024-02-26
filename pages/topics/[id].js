@@ -51,9 +51,9 @@ export default function Topic({ topicData }) {
         <div>
           <h1 aria-labelledby="name">
             <span id="name">
-              <div>
+              <div role="text">
                 <span>My</span>
-                <span> Headings 8</span>
+                <span> Headings 9</span>
               </div>
             </span>
             {/* <svg
