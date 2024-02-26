@@ -49,11 +49,11 @@ export default function Topic({ topicData }) {
       <div dangerouslySetInnerHTML={{ __html: topicData.contentHtml }} />
       <div id="live-header-with-role-text">
         <div>
-          <h1 class="css-ew35jg" id="content" tabindex="-1">
-            <div role="text">
+          <h1 id="content">
+            <span role="text">
               <span>My</span>
-              <span> Headings 3</span>
-            </div>
+              <span> Headings 4</span>
+            </span>
             {/* <svg
                 fill="currentColor"
                 focusable="false"
