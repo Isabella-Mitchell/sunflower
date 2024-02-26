@@ -51,10 +51,10 @@ export default function Topic({ topicData }) {
         <div>
           <h1 class="css-ew35jg" id="content" tabindex="-1">
             <div data-testid="live-label" className="customDisplay">
-              <span role="text">
+              <div role="text">
                 <span>My</span>
-                <span> Headings 1</span>
-              </span>
+                <span> Headings 2</span>
+              </div>
               {/* <svg
                 fill="currentColor"
                 focusable="false"
