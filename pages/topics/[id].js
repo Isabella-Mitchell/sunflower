@@ -116,7 +116,7 @@ export default function Topic({ topicData }) {
             </svg>
             <span role="text">
               <span dir="ltr" class="bbc-1533yks">
-                KAI TSAYE{" "}
+                KAI TSAYE
               </span>
               <span lang="en-GB" class="bbc-m04vo2">
                 ,{" "}
@@ -147,7 +147,7 @@ export default function Topic({ topicData }) {
               </svg>
               <span>
                 <span dir="ltr" aria-hidden="true">
-                  LIVE{" "}
+                  LIVE
                 </span>
                 <span lang="en-GB">Live, </span>
                 <span>Pidgin test 2</span>
@@ -174,10 +174,10 @@ export default function Topic({ topicData }) {
             </svg>
             <span>
               <span dir="ltr" class="bbc-1533yks">
-                KAI TSAYE{" "}
+                KAI TSAYE
               </span>
               <span lang="en-GB" class="bbc-m04vo2">
-                ,{" "}
+                ,
               </span>
               'Raɗe-raɗin juyin mulki a Najeriya ba gaskiya ba ne'
             </span>
