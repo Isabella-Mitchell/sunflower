@@ -51,7 +51,8 @@ export default function Topic({ topicData }) {
         <div>
           <h1 class="css-ew35jg" id="content" tabindex="-1">
             <div data-testid="live-label" className="customDisplay">
-              <svg
+              My Heading
+              {/* <svg
                 fill="currentColor"
                 focusable="false"
                 aria-hidden="true"
@@ -68,7 +69,7 @@ export default function Topic({ topicData }) {
                 </span>
                 <span lang="en-GB">Live, </span>
                 <span>Pidgin test 35</span>
-              </span>
+              </span> */}
             </div>
           </h1>
           <p class="css-1grox9a">Pidgin test 2 - the description</p>
