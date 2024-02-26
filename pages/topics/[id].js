@@ -50,12 +50,11 @@ export default function Topic({ topicData }) {
       <div id="live-header-with-role-text">
         <div>
           <h1 class="css-ew35jg" id="content" tabindex="-1">
-            <div data-testid="live-label" className="customDisplay">
-              <div role="text">
-                <span>My</span>
-                <span> Headings 2</span>
-              </div>
-              {/* <svg
+            <div role="text">
+              <span>My</span>
+              <span> Headings 3</span>
+            </div>
+            {/* <svg
                 fill="currentColor"
                 focusable="false"
                 aria-hidden="true"
@@ -73,7 +72,6 @@ export default function Topic({ topicData }) {
                 <span lang="en-GB">Live, </span>
                 <span>Pidgin test 35</span>
               </span> */}
-            </div>
           </h1>
           <p class="css-1grox9a">Pidgin test 2 - the description</p>
         </div>
