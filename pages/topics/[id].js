@@ -259,6 +259,49 @@ export default function Topic({ topicData }) {
           </div>
         </div>
       </article>
+      <article id="everything-inline-block--change-to-span-with-flex-with-breaking">
+        <h3>
+          <span role="text">
+            <span className="displayFlex">
+              <time className="displayInlineBlock" datetime="20 December 2023">
+                20 December 2023
+              </time>
+              <span>, </span>
+              <span
+                data-testid="breaking-news-label"
+                className="displayFlexBreaking"
+              >
+                Breaking
+              </span>
+              <span>, </span>
+            </span>
+            <span className="displayInlineBlock">Test for refresh</span>
+            <span>, </span>
+            <span className="displayInlineBlock">
+              Rushdi Abu Alouf - Reporting from Istanbul
+            </span>
+          </span>
+        </h3>
+        <div>
+          <div>
+            <p>
+              Downing Street has moved to announce who will replace Robert
+              Jenrick who quit last night as immigration minister.
+              everything-inline-block--change-to-span-with-flex-with-breaking
+            </p>
+          </div>
+          <div>
+            <p>
+              No 10 has decided to split the role. So Michael Tomlinson has been
+              appointed Minister for Illegal Migration in the Home Office, with
+              Tom Pursglove as Minister for Legal Migration and Delivery.
+            </p>
+          </div>
+          <div>
+            <p>Testing an update within this post card</p>
+          </div>
+        </div>
+      </article>
     </Layout>
   );
 }
