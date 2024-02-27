@@ -65,16 +65,38 @@ export default function Topic({ topicData }) {
           </div>
         </div>
       </article>
-      <article id="with-css-flex-no-breaking">
+      <article id="no-css-no-breaking-change-div-to-span">
         <h3>
           <span role="text">
-            <div className="displayFlex">
+            <span>
               <time datetime="20 December 2023">20 December 2023</time>
               <span>, </span>
-            </div>
+            </span>
             <span>Another test for refresh</span>
             <span>, </span>
             <span>Harvey Peachey</span>
+          </span>
+        </h3>
+        <div>
+          <div>
+            <p>
+              Testing with a new card no-css-no-breaking-change-div-to-spang
+            </p>
+          </div>
+        </div>
+      </article>
+      <article id="with-css-no-breaking">
+        <h3>
+          <span role="text">
+            <div className="displayFlex">
+              <time datetime="20 December 2023" className="displayBlock">
+                20 December 2023
+              </time>
+              <span>, </span>
+            </div>
+            <span className="displayBlock">Another test for refresh</span>
+            <span>, </span>
+            <span className="displayBlock">Harvey Peachey</span>
           </span>
         </h3>
         <div>
@@ -151,20 +173,27 @@ export default function Topic({ topicData }) {
           </div>
         </div>
       </article>
-      <article id="with-css-inline-with-breaking">
+      <article id="with-css-full-with-breaking">
         <h3>
           <span role="text">
-            <div>
-              <time className="displayInline" datetime="20 December 2023">
+            <div className="displayFlex">
+              <time className="displayBlock" datetime="20 December 2023">
                 20 December 2023
               </time>
               <span>, </span>
-              <span data-testid="breaking-news-label">Breaking</span>
+              <span
+                data-testid="breaking-news-label"
+                className="displayFlexBreaking"
+              >
+                Breaking
+              </span>
               <span>, </span>
             </div>
-            <span>Test for refresh</span>
+            <span className="displayBlock">Test for refresh</span>
             <span>, </span>
-            <span>Rushdi Abu Alouf - Reporting from Istanbul</span>
+            <span className="displayBlock">
+              Rushdi Abu Alouf - Reporting from Istanbul
+            </span>
           </span>
         </h3>
         <div>
@@ -172,7 +201,50 @@ export default function Topic({ topicData }) {
             <p>
               Downing Street has moved to announce who will replace Robert
               Jenrick who quit last night as immigration minister.
-              with-css-inline-with-breaking
+              with-css-full-with-breaking
+            </p>
+          </div>
+          <div>
+            <p>
+              No 10 has decided to split the role. So Michael Tomlinson has been
+              appointed Minister for Illegal Migration in the Home Office, with
+              Tom Pursglove as Minister for Legal Migration and Delivery.
+            </p>
+          </div>
+          <div>
+            <p>Testing an update within this post card</p>
+          </div>
+        </div>
+      </article>
+      <article id="everything-inline-block-with-breaking">
+        <h3>
+          <span role="text">
+            <div className="displayInlineBlock">
+              <time className="displayInlineBlock" datetime="20 December 2023">
+                20 December 2023
+              </time>
+              <span>, </span>
+              <span
+                data-testid="breaking-news-label"
+                className="displayInlineBlock"
+              >
+                Breaking
+              </span>
+              <span>, </span>
+            </div>
+            <span className="displayInlineBlock">Test for refresh</span>
+            <span>, </span>
+            <span className="displayInlineBlock">
+              Rushdi Abu Alouf - Reporting from Istanbul
+            </span>
+          </span>
+        </h3>
+        <div>
+          <div>
+            <p>
+              Downing Street has moved to announce who will replace Robert
+              Jenrick who quit last night as immigration minister.
+              everything-inline-block-with-breaking
             </p>
           </div>
           <div>

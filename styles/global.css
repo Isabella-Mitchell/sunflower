@@ -2,18 +2,24 @@
   display: block;
 }
 
+ */
+
 .displayInlineBlock {
   display: inline-block;
 }
 
 .displayBlock {
   display: block;
-} */
+}
 
 .displayFlex {
   align-items: flex-start;
   display: flex;
   flex-wrap: wrap;
+}
+
+.displayFlexBreaking {
+  flex: 1 0 0;
 }
 
 .displayInline {
