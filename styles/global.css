@@ -1,12 +1,5 @@
-.customDisplay {
+/* .customDisplay {
   display: block;
-}
-.displayFlex {
-  display: flex;
-}
-
-.displayInline {
-  display: inline;
 }
 
 .displayInlineBlock {
@@ -15,4 +8,14 @@
 
 .displayBlock {
   display: block;
+} */
+
+.displayFlex {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.displayInline {
+  display: inline;
 }
