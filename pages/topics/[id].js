@@ -121,21 +121,7 @@ export default function Topic({ topicData }) {
         </h3>
         <div>
           <div>
-            <p>
-              Downing Street has moved to announce who will replace Robert
-              Jenrick who quit last night as immigration minister.
-              without-css-with-breaking
-            </p>
-          </div>
-          <div>
-            <p>
-              No 10 has decided to split the role. So Michael Tomlinson has been
-              appointed Minister for Illegal Migration in the Home Office, with
-              Tom Pursglove as Minister for Legal Migration and Delivery.
-            </p>
-          </div>
-          <div>
-            <p>Testing an update within this post card</p>
+            <p>without-css-with-breaking</p>
           </div>
         </div>
       </article>
@@ -155,21 +141,7 @@ export default function Topic({ topicData }) {
         </h3>
         <div>
           <div>
-            <p>
-              Downing Street has moved to announce who will replace Robert
-              Jenrick who quit last night as immigration minister.
-              with-css-with-breaking
-            </p>
-          </div>
-          <div>
-            <p>
-              No 10 has decided to split the role. So Michael Tomlinson has been
-              appointed Minister for Illegal Migration in the Home Office, with
-              Tom Pursglove as Minister for Legal Migration and Delivery.
-            </p>
-          </div>
-          <div>
-            <p>Testing an update within this post card</p>
+            <p>with-css-with-breaking</p>
           </div>
         </div>
       </article>
@@ -198,21 +170,7 @@ export default function Topic({ topicData }) {
         </h3>
         <div>
           <div>
-            <p>
-              Downing Street has moved to announce who will replace Robert
-              Jenrick who quit last night as immigration minister.
-              with-css-full-with-breaking
-            </p>
-          </div>
-          <div>
-            <p>
-              No 10 has decided to split the role. So Michael Tomlinson has been
-              appointed Minister for Illegal Migration in the Home Office, with
-              Tom Pursglove as Minister for Legal Migration and Delivery.
-            </p>
-          </div>
-          <div>
-            <p>Testing an update within this post card</p>
+            <p>with-css-full-with-breaking</p>
           </div>
         </div>
       </article>
@@ -241,21 +199,7 @@ export default function Topic({ topicData }) {
         </h3>
         <div>
           <div>
-            <p>
-              Downing Street has moved to announce who will replace Robert
-              Jenrick who quit last night as immigration minister.
-              everything-inline-block-with-breaking
-            </p>
-          </div>
-          <div>
-            <p>
-              No 10 has decided to split the role. So Michael Tomlinson has been
-              appointed Minister for Illegal Migration in the Home Office, with
-              Tom Pursglove as Minister for Legal Migration and Delivery.
-            </p>
-          </div>
-          <div>
-            <p>Testing an update within this post card</p>
+            <p>everything-inline-block-with-breaking</p>
           </div>
         </div>
       </article>
@@ -285,20 +229,8 @@ export default function Topic({ topicData }) {
         <div>
           <div>
             <p>
-              Downing Street has moved to announce who will replace Robert
-              Jenrick who quit last night as immigration minister.
               everything-inline-block--change-to-span-with-flex-with-breaking
             </p>
-          </div>
-          <div>
-            <p>
-              No 10 has decided to split the role. So Michael Tomlinson has been
-              appointed Minister for Illegal Migration in the Home Office, with
-              Tom Pursglove as Minister for Legal Migration and Delivery.
-            </p>
-          </div>
-          <div>
-            <p>Testing an update within this post card</p>
           </div>
         </div>
       </article>
