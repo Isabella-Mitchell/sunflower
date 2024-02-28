@@ -48,41 +48,23 @@ export default function Topic({ topicData }) {
       <br />
       <div dangerouslySetInnerHTML={{ __html: topicData.contentHtml }} />
       <article>
-        <h3>
-          <span role="text">
-            <div className="outerDiv">
-              <time>9 May 2023</time>
-              <span className="visuallyHidden">, </span>
-              <span className="breaking" data-testid="breaking-news-label">
-                Breaking
+        <a href="#">
+          <h3 className="lineheight">
+            <span role="text">
+              <div className="outerDiv">
+                <time>10 May 2023</time>
+                <span className="visuallyHidden">, </span>
+                <span className="breaking" data-testid="breaking-news-label">
+                  Breaking
+                </span>
+                <span className="visuallyHidden">, </span>
+              </div>
+              <span className="inlineBlock">
+                B Breaking news headline with inline block
               </span>
-              <span className="visuallyHidden">, </span>
-            </div>
-            <span className="block">A Breaking news headline</span>
-          </span>
-        </h3>
-        <div>
-          <div>
-            <p>A Breaking news with block</p>
-          </div>
-        </div>
-      </article>
-      <article>
-        <h3 className="lineheight">
-          <span role="text">
-            <div className="outerDiv">
-              <time>10 May 2023</time>
-              <span className="visuallyHidden">, </span>
-              <span className="breaking" data-testid="breaking-news-label">
-                Breaking
-              </span>
-              <span className="visuallyHidden">, </span>
-            </div>
-            <span className="inlineBlock">
-              B Breaking news headline with inline block
             </span>
-          </span>
-        </h3>
+          </h3>
+        </a>
         <div>
           <div>
             <p>B Breaking news</p>
