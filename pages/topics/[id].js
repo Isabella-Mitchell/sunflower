@@ -58,12 +58,12 @@ export default function Topic({ topicData }) {
               </span>
               <span className="visuallyHidden">, </span>
             </div>
-            <span className="block">Breaking news headline</span>
+            <span className="block">A Breaking news headline</span>
           </span>
         </h3>
         <div>
           <div>
-            <p>Breaking news with block</p>
+            <p>A Breaking news with block</p>
           </div>
         </div>
       </article>
@@ -71,7 +71,7 @@ export default function Topic({ topicData }) {
         <h3 className="lineheight">
           <span role="text">
             <div className="outerDiv">
-              <time>9 May 2023</time>
+              <time>10 May 2023</time>
               <span className="visuallyHidden">, </span>
               <span className="breaking" data-testid="breaking-news-label">
                 Breaking
@@ -79,13 +79,13 @@ export default function Topic({ topicData }) {
               <span className="visuallyHidden">, </span>
             </div>
             <span className="inlineBlock">
-              Breaking news headline with inline block
+              B Breaking news headline with inline block
             </span>
           </span>
         </h3>
         <div>
           <div>
-            <p>Breaking news</p>
+            <p>B Breaking news</p>
           </div>
         </div>
       </article>
@@ -93,7 +93,7 @@ export default function Topic({ topicData }) {
         <h3 className="lineheight">
           <span role="text">
             <div className="outerDiv">
-              <time>9 May 2023</time>
+              <time>11 May 2023</time>
               <span>, </span>
               <span className="breaking" data-testid="breaking-news-label">
                 Breaking
@@ -101,13 +101,13 @@ export default function Topic({ topicData }) {
               <span>, </span>
             </div>
             <span className="block">
-              Breaking news headline with block and no visually hidden
+              C Breaking news headline with block and no visually hidden
             </span>
           </span>
         </h3>
         <div>
           <div>
-            <p>Breaking news</p>
+            <p>C Breaking news</p>
           </div>
         </div>
       </article>
@@ -115,7 +115,7 @@ export default function Topic({ topicData }) {
         <h3 className="lineheight">
           <span role="text">
             <div className="outerDiv">
-              <time>9 May 2023</time>
+              <time>12 May 2023</time>
               <span>, </span>
               <span className="breaking" data-testid="breaking-news-label">
                 Breaking
@@ -123,13 +123,13 @@ export default function Topic({ topicData }) {
               <span>, </span>
             </div>
             <span className="inlineBlock">
-              Breaking news headline with inline-block and no visually hidden
+              D Breaking news headline with inline-block and no visually hidden
             </span>
           </span>
         </h3>
         <div>
           <div>
-            <p>Breaking news</p>
+            <p>D Breaking news</p>
           </div>
         </div>
       </article>
