@@ -48,7 +48,7 @@ export default function Topic({ topicData }) {
       <br />
       <div dangerouslySetInnerHTML={{ __html: topicData.contentHtml }} />
       <article>
-        <h3 className="lineheight">
+        <h3>
           <span role="text">
             <div className="outerDiv">
               <time>9 May 2023</time>
@@ -59,6 +59,72 @@ export default function Topic({ topicData }) {
               <span className="visuallyHidden">, </span>
             </div>
             <span className="block">Breaking news headline</span>
+          </span>
+        </h3>
+        <div>
+          <div>
+            <p>Breaking news with block</p>
+          </div>
+        </div>
+      </article>
+      <article>
+        <h3 className="lineheight">
+          <span role="text">
+            <div className="outerDiv">
+              <time>9 May 2023</time>
+              <span className="visuallyHidden">, </span>
+              <span className="breaking" data-testid="breaking-news-label">
+                Breaking
+              </span>
+              <span className="visuallyHidden">, </span>
+            </div>
+            <span className="inlineBlock">
+              Breaking news headline with inline block
+            </span>
+          </span>
+        </h3>
+        <div>
+          <div>
+            <p>Breaking news</p>
+          </div>
+        </div>
+      </article>
+      <article>
+        <h3 className="lineheight">
+          <span role="text">
+            <div className="outerDiv">
+              <time>9 May 2023</time>
+              <span>, </span>
+              <span className="breaking" data-testid="breaking-news-label">
+                Breaking
+              </span>
+              <span>, </span>
+            </div>
+            <span className="block">
+              Breaking news headline with block and no visually hidden
+            </span>
+          </span>
+        </h3>
+        <div>
+          <div>
+            <p>Breaking news</p>
+          </div>
+        </div>
+      </article>
+      <article>
+        <h3 className="lineheight">
+          <span role="text">
+            <div className="outerDiv">
+              <time>9 May 2023</time>
+              <span>, </span>
+              <span className="breaking" data-testid="breaking-news-label">
+                Breaking
+              </span>
+              <span>, </span>
+            </div>
+            <span className="inlineBlock">
+              Breaking news headline with inline-block and no visually hidden
+            </span>
           </span>
         </h3>
         <div>

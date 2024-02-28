@@ -1,7 +1,7 @@
 /* .lineheight {
   line-height: 0;
 } */
-/* 
+
 .outerDiv {
   display: inline-block;
   width: 100%;
@@ -23,4 +23,8 @@
 
 .block {
   display: block;
-} */
+}
+
+.lock {
+  display: inline-block;
+}
