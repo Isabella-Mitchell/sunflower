@@ -141,3 +141,192 @@
         </p>
       </div> */
 }
+{
+  //     <article id="no-css-no-breaking">
+  //     <h3>
+  //       <span role="text">
+  //         <div>
+  //           <time datetime="20 December 2023">20 December 2023</time>
+  //           <span>, </span>
+  //         </div>
+  //         <span>Another test for refresh</span>
+  //         <span>, </span>
+  //         <span>Harvey Peachey</span>
+  //       </span>
+  //     </h3>
+  //     <div>
+  //       <div>
+  //         <p>Testing with a new card no-css-no-breaking</p>
+  //       </div>
+  //     </div>
+  //   </article>
+  //   <article id="no-css-no-breaking-change-div-to-span">
+  //     <h3>
+  //       <span role="text">
+  //         <span>
+  //           <time datetime="20 December 2023">20 December 2023</time>
+  //           <span>, </span>
+  //         </span>
+  //         <span>Another test for refresh</span>
+  //         <span>, </span>
+  //         <span>Harvey Peachey</span>
+  //       </span>
+  //     </h3>
+  //     <div>
+  //       <div>
+  //         <p>
+  //           Testing with a new card no-css-no-breaking-change-div-to-spang
+  //         </p>
+  //       </div>
+  //     </div>
+  //   </article>
+  //   <article id="with-css-no-breaking">
+  //     <h3>
+  //       <span role="text">
+  //         <div className="displayFlex">
+  //           <time datetime="20 December 2023" className="displayBlock">
+  //             20 December 2023
+  //           </time>
+  //           <span>, </span>
+  //         </div>
+  //         <span className="displayBlock">Another test for refresh</span>
+  //         <span>, </span>
+  //         <span className="displayBlock">Harvey Peachey</span>
+  //       </span>
+  //     </h3>
+  //     <div>
+  //       <div>
+  //         <p>Testing with a new card with-css-no-breaking</p>
+  //       </div>
+  //     </div>
+  //   </article>
+  //   <article id="without-css-with-breaking">
+  //     <h3>
+  //       <span role="text">
+  //         <div>
+  //           <time datetime="20 December 2023">20 December 2023</time>
+  //           <span>, </span>
+  //           <span data-testid="breaking-news-label">Breaking</span>
+  //           <span>, </span>
+  //         </div>
+  //         <span>Test for refresh</span>
+  //         <span>, </span>
+  //         <span>Rushdi Abu Alouf - Reporting from Istanbul</span>
+  //       </span>
+  //     </h3>
+  //     <div>
+  //       <div>
+  //         <p>without-css-with-breaking</p>
+  //       </div>
+  //     </div>
+  //   </article>
+  //   <article id="with-css-flex-with-breaking">
+  //     <h3>
+  //       <span role="text">
+  //         <div className="displayFlex">
+  //           <time datetime="20 December 2023">20 December 2023</time>
+  //           <span>, </span>
+  //           <span data-testid="breaking-news-label">Breaking</span>
+  //           <span>, </span>
+  //         </div>
+  //         <span>Test for refresh</span>
+  //         <span>, </span>
+  //         <span>Rushdi Abu Alouf - Reporting from Istanbul</span>
+  //       </span>
+  //     </h3>
+  //     <div>
+  //       <div>
+  //         <p>with-css-with-breaking</p>
+  //       </div>
+  //     </div>
+  //   </article>
+  //   <article id="with-css-full-with-breaking">
+  //     <h3>
+  //       <span role="text">
+  //         <div className="displayFlex">
+  //           <time className="displayBlock" datetime="20 December 2023">
+  //             20 December 2023
+  //           </time>
+  //           <span>, </span>
+  //           <span
+  //             data-testid="breaking-news-label"
+  //             className="displayFlexBreaking"
+  //           >
+  //             Breaking
+  //           </span>
+  //           <span>, </span>
+  //         </div>
+  //         <span className="displayBlock">Test for refresh</span>
+  //         <span>, </span>
+  //         <span className="displayBlock">
+  //           Rushdi Abu Alouf - Reporting from Istanbul
+  //         </span>
+  //       </span>
+  //     </h3>
+  //     <div>
+  //       <div>
+  //         <p>with-css-full-with-breaking</p>
+  //       </div>
+  //     </div>
+  //   </article>
+  //   <article id="everything-inline-block-with-breaking">
+  //     <h3>
+  //       <span role="text">
+  //         <div className="displayInlineBlock">
+  //           <time className="displayInlineBlock" datetime="20 December 2023">
+  //             20 December 2023
+  //           </time>
+  //           <span>, </span>
+  //           <span
+  //             data-testid="breaking-news-label"
+  //             className="displayInlineBlock"
+  //           >
+  //             Breaking
+  //           </span>
+  //           <span>, </span>
+  //         </div>
+  //         <span className="displayInlineBlock">Test for refresh</span>
+  //         <span>, </span>
+  //         <span className="displayInlineBlock">
+  //           Rushdi Abu Alouf - Reporting from Istanbul
+  //         </span>
+  //       </span>
+  //     </h3>
+  //     <div>
+  //       <div>
+  //         <p>everything-inline-block-with-breaking</p>
+  //       </div>
+  //     </div>
+  //   </article>
+  //   <article id="everything-inline-block--change-to-span-with-flex-with-breaking">
+  //     <h3>
+  //       <span role="text">
+  //         <span className="displayFlex">
+  //           <time className="displayInlineBlock" datetime="20 December 2023">
+  //             20 December 2023
+  //           </time>
+  //           <span>, </span>
+  //           <span
+  //             data-testid="breaking-news-label"
+  //             className="displayFlexBreaking"
+  //           >
+  //             Breaking
+  //           </span>
+  //           <span>, </span>
+  //         </span>
+  //         <span className="displayInlineBlock">Test for refresh</span>
+  //         <span>, </span>
+  //         <span className="displayInlineBlock">
+  //           Rushdi Abu Alouf - Reporting from Istanbul
+  //         </span>
+  //       </span>
+  //     </h3>
+  //     <div>
+  //       <div>
+  //         <p>
+  //           everything-inline-block--change-to-span-with-flex-with-breaking
+  //         </p>
+  //       </div>
+  //     </div>
+  //   </article>
+}
