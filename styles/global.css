@@ -11,8 +11,7 @@
   clip-path: inset(100%);
   clip: rect(1px, 1px, 1px, 1px);
   overflow: hidden;
-  /* 
-  position: absolute; */
+  position: absolute;
   height: 1px;
   width: 1px;
   margin: 0px;

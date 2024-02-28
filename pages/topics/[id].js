@@ -101,7 +101,7 @@ export default function Topic({ topicData }) {
               <span>, </span>
             </div>
             <span className="block">
-              G Breaking news headline with block and no visually hidden
+              H Breaking news headline with block and no visually hidden
             </span>
           </span>
         </h3>
