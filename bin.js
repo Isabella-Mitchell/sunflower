@@ -330,3 +330,73 @@
   //     </div>
   //   </article>
 }
+{
+  // <article>
+  //       <a href="#">
+  //         <h3 className="lineheight">
+  //           <span role="text">
+  //             <div className="outerDiv">
+  //               <time>10 May 2023</time>
+  //               <span className="visuallyHidden">, </span>
+  //               <span className="breaking" data-testid="breaking-news-label">
+  //                 Breaking
+  //               </span>
+  //               <span className="visuallyHidden">, </span>
+  //             </div>
+  //             <span className="inlineBlock">
+  //               B Breaking news headline with inline block
+  //             </span>
+  //           </span>
+  //         </h3>
+  //       </a>
+  //       <div>
+  //         <div>
+  //           <p>B Breaking news</p>
+  //         </div>
+  //       </div>
+  //     </article>
+  //     <article>
+  //       <h3 className="lineheight">
+  //         <span role="text">
+  //           <div className="outerDiv">
+  //             <time>11 May 2023</time>
+  //             <span>, </span>
+  //             <span className="breaking" data-testid="breaking-news-label">
+  //               Breaking
+  //             </span>
+  //             <span>, </span>
+  //           </div>
+  //           <span className="block">
+  //             J Breaking news headline with block and no visually hidden
+  //           </span>
+  //         </span>
+  //       </h3>
+  //       <div>
+  //         <div>
+  //           <p>C Breaking news</p>
+  //         </div>
+  //       </div>
+  //     </article>
+  //     <article>
+  //       <h3 className="lineheight">
+  //         <span role="text">
+  //           <div className="outerDiv">
+  //             <time>12 May 2023</time>
+  //             <span>, </span>
+  //             <span className="breaking" data-testid="breaking-news-label">
+  //               Breaking
+  //             </span>
+  //             <span>, </span>
+  //           </div>
+  //           <span className="inlineBlock">
+  //             D Breaking news headline with inline-block and no visually hidden
+  //           </span>
+  //         </span>
+  //       </h3>
+  //       <div>
+  //         <div>
+  //           <p>D Breaking news</p>
+  //         </div>
+  //       </div>
+  //     </article>
+}

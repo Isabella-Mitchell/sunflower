@@ -25,3 +25,34 @@
 .displayInline {
   display: inline;
 } */
+
+/* .lineheight {
+  line-height: 0;
+} */
+
+/* .outerDiv {
+  display: inline-block;
+  width: 100%;
+}
+
+.visuallyHidden {
+  clip-path: inset(100%);
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  margin: 0px;
+}
+
+.breaking {
+  display: inline-block;
+}
+
+.block {
+  display: block;
+}
+
+.inlineBlock {
+  display: inline-block;
+} */
