@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export const siteTitle = "Isabella and Matthew";
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, home, showNav }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -31,10 +31,10 @@ export default function Layout({ children, home }) {
             alt=""
           />
         </Link>
-        <h1>Isabella & Matthew</h1>
-        <h2>Saturday 10th August 2024</h2>
+        {showNav && <h1>Isabella & Matthew</h1>}
+        {showNav && <h2>Saturday 10th August 2024</h2>}
       </header>
-      <TransitionLayout>{children}</TransitionLayout>
+      <TransitionLayout showNav={showNav}>{children}</TransitionLayout>
     </div>
   );
 }

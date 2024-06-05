@@ -38,7 +38,7 @@ function TopicImage(topicId) {
 
 export default function Topic({ topicData }) {
   return (
-    <Layout>
+    <Layout showNav>
       <Head>
         <title>Isabella and Matthew - {topicData.id}</title>
       </Head>

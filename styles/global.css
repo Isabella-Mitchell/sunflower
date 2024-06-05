@@ -112,6 +112,10 @@ main {
   margin-right: auto;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .italic {
   font-style: italic;
 }
@@ -122,4 +126,16 @@ p {
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+}
+
+.removeMargin {
+  margin: 0;
+}
+
+.increaseBottomMargin {
+  margin-bottom: 2rem;
+}
+
+.increaseTopMargin {
+  margin-top: 0.25rem;
 }

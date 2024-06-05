@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useState, memo, useEffect } from "react";
 import styles from "./transitionLayout.module.css";
 
-export default function TransitionLayout({ children }) {
+export default function TransitionLayout({ children, showNav }) {
   const [displayChildren, setDisplayChildren] = useState(children);
   const [transitionStage, setTransitionStage] = useState("fadeOut");
 
@@ -16,25 +16,27 @@ export default function TransitionLayout({ children }) {
 
   return (
     <div>
-      <nav>
-        <ul className="flex">
-          {/* <li>
+      {showNav && (
+        <nav>
+          <ul className="flex">
+            {/* <li>
             <Link href="/">Save the Date</Link>
           </li> */}
-          <li>
-            <Link href="/topics/our story">Our Story</Link>
-          </li>
-          <li>
-            <Link href="/topics/about the day">About the Day</Link>
-          </li>
-          <li>
-            <Link href="/topics/accommodation">Accommodation</Link>
-          </li>
-          <li>
-            <Link href="/topics/next steps">Next Steps</Link>
-          </li>
-        </ul>
-      </nav>
+            <li>
+              <Link href="/topics/our story">Our Story</Link>
+            </li>
+            <li>
+              <Link href="/topics/about the day">About the Day</Link>
+            </li>
+            <li>
+              <Link href="/topics/accommodation">Accommodation</Link>
+            </li>
+            <li>
+              <Link href="/topics/next steps">Next Steps</Link>
+            </li>
+          </ul>
+        </nav>
+      )}
 
       <main
         onTransitionEnd={() => {
