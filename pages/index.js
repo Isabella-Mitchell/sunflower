@@ -27,7 +27,7 @@ export default function Home({ allTopicsData }) {
           Please Save the Date for the marriage of Isabella Mitchell and Matthew
           LLoyd
         </h2> */}
-        <h1 className="h2script">Save the Date</h1>
+        {/* <h1 className="h2script">Save the Date</h1> */}
         {/* <p className="h2script">Isabella Mitchell</p>
         <p className="h2script">Matthew Lloyd</p> */}
         {/* <p class="homePageParagraph bold italic">
@@ -37,9 +37,9 @@ export default function Home({ allTopicsData }) {
           Isabella Mitchell & Matthew Lloyd are getting married
         </p> */}
         <h2>We're getting married!</h2>
-        <p className="homePageParagraph">Saturday 10th August 2024</p>
+        <p className="homePageParagraph bold">Saturday 10th August 2024</p>
         <p className="homePageParagraph">The Barn at Berryfields, Meriden</p>
-        <p className="homePageParagraph">Invitation to follow</p>
+        <p className="homePageParagraph">Kindly RSVP by Sunday 7th July</p>
       </section>
     </Layout>
   );

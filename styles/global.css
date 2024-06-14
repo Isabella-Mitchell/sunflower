@@ -103,6 +103,15 @@ main {
   text-align: center;
 }
 
+.smallParagraph {
+  /* font-family: "Dawning of a New Day", serif; */
+  /* margin: 0 1rem 1rem; */
+  /* text-transform: uppercase; */
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
 .bold {
   font-weight: 400;
 }

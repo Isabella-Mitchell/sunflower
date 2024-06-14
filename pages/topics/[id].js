@@ -24,7 +24,7 @@ export async function getStaticPaths() {
 function TopicImage(topicId) {
   const topicIdValue = topicId.topicId;
   const showTopicImage =
-    (topicIdValue === "about the day") | (topicIdValue === "our story");
+    (topicIdValue === "venue and transport") | (topicIdValue === "our story");
   return showTopicImage ? (
     <Image
       src={`/images/${topicIdValue}.jpg`}

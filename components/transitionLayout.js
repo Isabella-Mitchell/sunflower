@@ -26,13 +26,19 @@ export default function TransitionLayout({ children, showNav }) {
               <Link href="/topics/our story">Our Story</Link>
             </li>
             <li>
-              <Link href="/topics/about the day">About the Day</Link>
+              <Link href="/topics/order of the day">Order of the Day</Link>
+            </li>
+            <li>
+              <Link href="/topics/gifts">Gifts</Link>
+            </li>
+            <li>
+              <Link href="/topics/venue and transport">Venue & Transport</Link>
             </li>
             <li>
               <Link href="/topics/accommodation">Accommodation</Link>
             </li>
             <li>
-              <Link href="/topics/next steps">Next Steps</Link>
+              <Link href="/topics/invites and rsvps">Invites & RSVPs</Link>
             </li>
           </ul>
         </nav>

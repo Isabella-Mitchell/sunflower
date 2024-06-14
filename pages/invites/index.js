@@ -18,13 +18,19 @@ export default function invites() {
         <h2 className="removeMargin bold">Saturday 10th August 2024</h2>
         <p className="homePageParagraph bold">at 1.30 pm</p>
         <p className="homePageParagraph">The Barn at Berryfields, Meriden</p>
-        <p className="homePageParagraph removeMargin">
-          Kindly RSVP by Monday 1st July
+        <p className="homePageParagraph removeMargin bold">
+          Kindly RSVP by Sunday 7th July
         </p>
         <p className="homePageParagraph removeMargin">
-          Post: 42 Falkland Road, London, N8 0NX
+          Please both reply to this invite and complete the form
         </p>
-        <p className="homePageParagraph">Phone: 07975871891</p>
+        <p className="homePageParagraph">to let us know your menu choices</p>
+        <p className="smallParagraph removeMargin">
+          For information on the gifts, venue and the order of the day
+        </p>
+        <p className="smallParagraph">
+          please visit isabella-and-matthew.vercel.app
+        </p>
       </section>
     </Layout>
   );
