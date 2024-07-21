@@ -32,13 +32,13 @@ export default function TransitionLayout({ children, showNav }) {
               <Link href="/topics/gifts">Gifts</Link>
             </li>
             <li>
+              <Link href="/topics/dress code">Dress Code</Link>
+            </li>
+            <li>
               <Link href="/topics/venue and transport">Venue & Transport</Link>
             </li>
             <li>
               <Link href="/topics/accommodation">Accommodation</Link>
-            </li>
-            <li>
-              <Link href="/topics/invites and rsvps">Invites & RSVPs</Link>
             </li>
           </ul>
         </nav>

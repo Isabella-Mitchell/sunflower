@@ -4,15 +4,17 @@ The day will begin early afternoon when we will gather for a sit-down lunch in t
 
 1.30 pm - Guests arrive. Welcome drinks are served
 
-2.30 pm - Lunch is served inside the Loft private dining room
+2.00 pm - Guests are seated in the Loft private dining room. Welcome speeches
 
-4.00 pm - Speeches
+2.30 pm - Lunch is served
+
+3.45 pm - Father of the Bride & Best Man speeches
+
+4.45 pm - Cutting the cake
 
 5.00 pm - Move to the Teepee. Evening guests arrive
 
-5.15 pm - Cutting the cake
-
-5.30 pm - Outdoor games, music and drinks
+5.15 pm - Outdoor games, music and drinks
 
 7.30 pm - Evening buffet is served
 
